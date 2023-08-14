@@ -1,0 +1,86 @@
+.quem-sou-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space space-between;
+  font-family: raleway, sans-serif;
+  gap: 2rem;
+  align-items: center;
+}
+
+.bg {
+  background-color: black;
+  padding: 2rem;
+}
+
+.quem-sou-d1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.quem-sou-itens {
+  display: grid;
+  gap: 1rem;
+}
+
+.quem-sou-itens_p1 {
+  position: relative;
+}
+
+.quem-sou-itens_p1::before,
+.quem-sou-itens_p1::after {
+  font-size: 6rem;
+  color: #ffbb00;
+  position: absolute;
+}
+
+.quem-sou-itens_p1::before {
+  content: "“";
+  top: -30px;
+  left: -40px;
+}
+
+.quem-sou-itens_p1::after {
+  content: "”";
+  bottom: -100px;
+  right: 0px;
+}
+
+
+.quem-sou-itens span {
+  text-align: right;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+
+.quem-sou-content p {
+  font-size: 1.125rem;
+  color: #eeeeee;
+}
+
+.quem-sou-d2 {
+  padding: 0.5rem;
+  border-radius: 40%;
+  width: 300px;
+  background-color: #DAA520;
+  place-self: center;
+}
+
+.quem-sou-content img {
+  width: 300px;
+  opacity: 0.5;
+  border-radius: 40%;
+  object-fit: cover;
+}
+
+.quem-sou-content h3 {
+  color: #ffbb00;
+  font-size: 1.5rem; 
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.quem-sou-d3 h2 {
+  color: #ffbb00;
+  font-size: 4rem;  
+}

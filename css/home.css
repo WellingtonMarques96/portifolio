@@ -1,0 +1,41 @@
+.menu-itens {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.menu-itens img {
+  opacity: 2;
+  border-radius: 30%;
+}
+
+.menu-itens img:hover {
+  opacity: 0.5;
+}
+
+.menu-itens a {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #cdcdcd;;
+}
+
+.menu-itens a:hover {
+  color: #ffbb00;
+}
+
+.slogan {
+  display: grid;
+  justify-content: center;
+}
+
+.slogan p {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding-right: 6rem;
+}
+
+.slogan p:nth-child(2) {
+  font-size: 4rem;
+  color: #ffbb00;
+}

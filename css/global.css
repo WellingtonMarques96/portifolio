@@ -1,0 +1,32 @@
+body, h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(1deg, #707070 4.36%, #000 100%);
+  font-family: caprasimo;
+  color:#cdcdcd;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 1rem auto 5rem auto;
+  padding: 1rem 2rem;
+}
